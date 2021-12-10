@@ -16,7 +16,7 @@ Es necesario la utilización de una librería que funcione como un motor gráfic
 
 ## Requisitos
 
-El código implementado fue desarrollado en Python Utilizando las librerías de Kivy, OpenCV, CVZone y MediaPipe 
+El código implementado fue desarrollado en Python Utilizando las librerías de Kivy, OpenCV, CVZone y MediaPipe.
 
 ## Demo
 
