@@ -9,6 +9,8 @@ import random
 import simpleaudio as sa
 import cvzone
 
+import time
+
 username = input("Enter your username: ")
 
 host = '127.0.0.1'
@@ -26,6 +28,8 @@ if(username=='user1'):
     cap = cv2.VideoCapture(2)
 if(username=='user2'):
     cap = cv2.VideoCapture(3)
+if(username=='user3'):
+    cap = cv2.VideoCapture(1)
 
 cap.set(3, wCam)
 cap.set(4, hCam)
@@ -68,6 +72,10 @@ def HPVocales2():
 
     if (username == 'user1'):
         cap = cv2.VideoCapture(2)
+    if (username == 'user2'):
+        cap = cv2.VideoCapture(3)
+    if (username == 'user3'):
+        cap = cv2.VideoCapture(1)
 
     cap.set(3, wCam)
     cap.set(4, hCam)
@@ -130,6 +138,10 @@ def HPVocales():
 
     if (username == 'user1'):
         cap = cv2.VideoCapture(2)
+    if (username == 'user2'):
+        cap = cv2.VideoCapture(3)
+    if (username == 'user3'):
+        cap = cv2.VideoCapture(1)
 
     cap.set(3, wCam)
     cap.set(4, hCam)
@@ -200,6 +212,10 @@ def HPDedos2():
 
     if (username == 'user1'):
         cap = cv2.VideoCapture(2)
+    if (username == 'user2'):
+        cap = cv2.VideoCapture(3)
+    if (username == 'user3'):
+        cap = cv2.VideoCapture(1)
 
     cap.set(3, wCam)
     cap.set(4, hCam)
@@ -262,6 +278,10 @@ def HPDedos():
 
     if (username == 'user1'):
         cap = cv2.VideoCapture(2)
+    if (username == 'user2'):
+        cap = cv2.VideoCapture(3)
+    if (username == 'user3'):
+        cap = cv2.VideoCapture(1)
 
     cap.set(3, wCam)
     cap.set(4, hCam)
@@ -332,6 +352,10 @@ def SumaDedos():
 
     if (username == 'user1'):
         cap = cv2.VideoCapture(2)
+    if (username == 'user2'):
+        cap = cv2.VideoCapture(3)
+    if (username == 'user3'):
+        cap = cv2.VideoCapture(1)
 
     cap.set(3, wCam)
     cap.set(4, hCam)
@@ -410,6 +434,10 @@ def VocalesDesorden():
 
     if (username == 'user1'):
         cap = cv2.VideoCapture(2)
+    if (username == 'user2'):
+        cap = cv2.VideoCapture(3)
+    if (username == 'user3'):
+        cap = cv2.VideoCapture(1)
 
     cap.set(3, wCam)
     cap.set(4, hCam)
@@ -488,6 +516,10 @@ def ModeSumaDedos():
 
     if (username == 'user1'):
         cap = cv2.VideoCapture(2)
+    if (username == 'user2'):
+        cap = cv2.VideoCapture(3)
+    if (username == 'user3'):
+        cap = cv2.VideoCapture(1)
 
     cap.set(3, wCam)
     cap.set(4, hCam)
@@ -566,6 +598,10 @@ def ModeVocalesDesorden():
 
     if (username == 'user1'):
         cap = cv2.VideoCapture(2)
+    if (username == 'user2'):
+        cap = cv2.VideoCapture(3)
+    if (username == 'user3'):
+        cap = cv2.VideoCapture(1)
 
     cap.set(3, wCam)
     cap.set(4, hCam)
@@ -644,6 +680,10 @@ def iniciar():
 
     if (username == 'user1'):
         cap = cv2.VideoCapture(2)
+    if (username == 'user2'):
+        cap = cv2.VideoCapture(3)
+    if (username == 'user3'):
+        cap = cv2.VideoCapture(1)
 
     cap.set(3, wCam)
     cap.set(4, hCam)
@@ -722,6 +762,10 @@ def creditos():
 
     if (username == 'user1'):
         cap = cv2.VideoCapture(2)
+    if (username == 'user2'):
+        cap = cv2.VideoCapture(3)
+    if (username == 'user3'):
+        cap = cv2.VideoCapture(1)
 
     cap.set(3, wCam)
     cap.set(4, hCam)
@@ -786,6 +830,10 @@ def menu():
 
     if (username == 'user1'):
         cap = cv2.VideoCapture(2)
+    if (username == 'user2'):
+        cap = cv2.VideoCapture(3)
+    if (username == 'user3'):
+        cap = cv2.VideoCapture(1)
 
     cap.set(3, wCam)
     cap.set(4, hCam)
@@ -839,8 +887,8 @@ def menu():
                         creditos()
                     if(aux == 3):
                         wave_obj.play()
-                        cv2.destroyAllWindows()
-                        exit(1)
+                        #cv2.destroyAllWindows()
+                        #exit(1)
                     permite = False
 
             totalFingers = fingers.count(1)
@@ -865,6 +913,10 @@ def juegoVOCALES():
 
     if (username == 'user1'):
         cap = cv2.VideoCapture(2)
+    if (username == 'user2'):
+        cap = cv2.VideoCapture(3)
+    if (username == 'user3'):
+        cap = cv2.VideoCapture(1)
 
     cap.set(3, wCam)
     cap.set(4, hCam)
@@ -1006,6 +1058,10 @@ def juegoDEDOS():
 
     if (username == 'user1'):
         cap = cv2.VideoCapture(2)
+    if (username == 'user2'):
+        cap = cv2.VideoCapture(3)
+    if (username == 'user3'):
+        cap = cv2.VideoCapture(1)
 
     cap.set(3, wCam)
     cap.set(4, hCam)
@@ -1096,6 +1152,10 @@ def juegoVOCALEScoop():
 
     if (username == 'user1'):
         cap = cv2.VideoCapture(2)
+    if (username == 'user2'):
+        cap = cv2.VideoCapture(3)
+    if (username == 'user3'):
+        cap = cv2.VideoCapture(1)
 
     verificarMulti = "si"
 
@@ -1265,6 +1325,10 @@ def juegoDEDOScoop():
 
     if (username == 'user1'):
         cap = cv2.VideoCapture(2)
+    if (username == 'user2'):
+        cap = cv2.VideoCapture(3)
+    if (username == 'user3'):
+        cap = cv2.VideoCapture(1)
 
     verificarMulti = "si"
 
