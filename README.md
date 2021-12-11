@@ -32,3 +32,8 @@ Una Demo completo del proyecto se encuentra en Youtube mediante el siguiente lin
 ![6](https://user-images.githubusercontent.com/21103950/138517868-8d8782a5-9356-4808-891a-1402fe9c1585.png)
 ![7](https://user-images.githubusercontent.com/21103950/138517875-b9cd2466-362f-400d-90a5-9da16331d87a.png)
 ![8](https://user-images.githubusercontent.com/21103950/138517842-62101a17-afc5-4b81-8873-f73aa9661696.png)
+![9](https://user-images.githubusercontent.com/21103950/145684046-3266341f-ba7c-4fd3-ae14-704150702536.png)
+![10](https://user-images.githubusercontent.com/21103950/145684055-8e3d38ba-a615-4b08-81dd-8f7d2df28d72.png)
+![11](https://user-images.githubusercontent.com/21103950/145684058-fcc71592-e0d0-4bc6-a8f7-45d8ecb90423.png)
+![12](https://user-images.githubusercontent.com/21103950/145684061-78ea0e58-bad7-402d-932f-f4d1cbf0cbdb.png)
+
